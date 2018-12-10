@@ -43,3 +43,4 @@ def coint_daterange(start_date,end_date, asset_list):
 
 stocks_to_check = ['SPY','AAPL','ADBE','SYMC','EBAY','MSFT','QCOM', 'HPQ','JNPR','AMD','IBM']
 this_pairs = coint_daterange(dt.datetime(2016,1,9), dt.datetime(2017,1,30), stocks_to_check)
+print(this_pairs)
