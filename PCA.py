@@ -7,9 +7,10 @@ Created on Mon Dec 17 15:03:49 2018
 """
 
 '''
-This notebook uses PCA (principle component analysis) to determine factors that explain the majority of the variance in the observed data.
+This notebook uses PCA (principle component analysis) to find factors that explain 
+the majority of the variance in the US Equity data.
 
-Each security is regressed against the first N components and weighted inversely to the zscore of the residuals.
+Each series is regressed against the first N components and weighted inversely to the zscore of the residuals.
 
 Built on Quantopia's API platform.
 
